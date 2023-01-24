@@ -1,64 +1,75 @@
-/*  Website Default styles
-color: #414040;
-   color: #707070;
-   color: #707070;
-*/
+/*  Website Default styles*/
 * {
     margin: 0;
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
-
 }
-@media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1080px !important;
-}}
-body{
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1080px !important;
+    }
+}
+
+body {
     color: #707070;
     margin: auto;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'EB Garamond', serif;
     color: #414040;
 }
-.btn-law{
-    
-        background: #B68C5A;
-        
-        color: #fff;
-        font-size: 18px;
-    
+
+.btn-law {
+
+    background: #B68C5A;
+
+    color: #fff;
+    font-size: 18px;
+
 }
+
 .btn-law:hover {
     background-color: #97744b;
     color: #fff;
 }
-p{
- 
-font-family: 'Poppins', sans-serif;
+
+p {
+
+    font-family: 'Poppins', sans-serif;
 }
 
-
 /* Header Banner Section Start  */
-.banner{
+.banner {
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0), #111), url(../images/banner.png);
- 
+
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-contact-form{
+.banner-contact-form {
     padding-top: 18px;
     padding-bottom: 18px;
 }
 /* Header Banner Section End   */
 
 /* Card Section Start  */
-.second_one{
+.second_one {
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+
 /* Card Section End  */
 /* Slider, Testimonials Section Start */
-.carousel{
+.carousel {
     background-image: linear-gradient(90deg, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,63 +77,56 @@ font-family: 'Poppins', sans-serif;
 /* Slider, Testimonials Section End  */
 
 /* FAQ Section */
-.accordion-item .collapse.show{
-background-color: #f3f3f3;
+.accordion-item .collapse.show {
+    background-color: #f3f3f3;
 }
-.accordion-button{
+.accordion-button {
     color: #414040 !important;
     background-color: #f3f3f3 !important;
 }
 .accordion-button:focus {
- 
-    border-color:none;
- border: none;
+
+    border-color: none;
+    border: none;
     box-shadow: none !important;
 }
+
 .accordion-button:not(.collapsed) {
-   
+
     box-shadow: none !important;
 }
 .accordion-item {
     color: #707070;
 }
+
 /* According Icon Change  */
 .accordion-button:not(.collapsed)::after {
     background-image: url("../images/minus.png") !important;
     transform: rotate(360deg);
     background-size: auto;
     background-position: center;
-    }
-
-
-    .accordion-button.collapsed::after {
+}
+.accordion-button.collapsed::after {
     background-image: url("../images/plus.png") !important;
     background-size: auto;
     background-position: center;
-    }
-    
-    .accordion-button:not(.collapsed) {
-   
-
-    }
-
-
-
+}
 /* FAQ Section End  */
 
 
 /* Contact Us Section Start */
-.contact-info .card-body{
+.contact-info .card-body {
     background-color: #f3f3f3;
 }
+
 .contact-form .form-control {
     background: #f3f3f3 !important;
     border-color: #f3f3f3 !important;
 }
-
 /* Contact Us Section End  */
 
 /* Footer Section  */
-footer p, footer a{
+footer p,
+footer a {
     color: #CFCFCF;
 }
