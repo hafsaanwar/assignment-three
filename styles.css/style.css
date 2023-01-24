@@ -63,6 +63,15 @@ p {
 /* Header Banner Section End   */
 
 /* Card Section Start  */
+/* Mobile */
+@media only screen
+and (max-width : 575px) {
+    .card {
+        border: 0 !important;
+    }
+}
+
+
 .second_one {
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
