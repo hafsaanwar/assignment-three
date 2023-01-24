@@ -37,6 +37,9 @@ p{
  
 font-family: 'Poppins', sans-serif;
 }
+
+
+/* Header Banner Section Start  */
 .banner{
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0), #111), url(../images/banner.png);
  
@@ -47,14 +50,22 @@ font-family: 'Poppins', sans-serif;
     padding-top: 18px;
     padding-bottom: 18px;
 }
+/* Header Banner Section End   */
+
+/* Card Section Start  */
 .second_one{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+/* Card Section End  */
+/* Slider, Testimonials Section Start */
 .carousel{
     background-image: linear-gradient(90deg, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Slider, Testimonials Section End  */
+
+/* FAQ Section */
 .collapse.show{
 background-color: #f3f3f3;
 }
@@ -75,8 +86,10 @@ background-color: #f3f3f3;
 .accordion-item {
     color: #707070;
 }
+/* FAQ Section End  */
 
 
+/* Contact Us Section Start */
 .contact-info .card-body{
     background-color: #f3f3f3;
 }
@@ -85,7 +98,7 @@ background-color: #f3f3f3;
     border-color: #f3f3f3 !important;
 }
 
-
+/* Contact Us Section End  */
 
 /* Footer Section  */
 footer p, footer a{
