@@ -88,22 +88,22 @@ background-color: #f3f3f3;
 }
 /* According Icon Change  */
 .accordion-button:not(.collapsed)::after {
-   
-    background-image: url("../images/Frame\ \(1\).png");
+    background-image: url("../images/minus.png") !important;
     transform: rotate(360deg);
     background-size: auto;
     background-position: center;
     }
-    
+
+
     .accordion-button.collapsed::after {
-    background-image: url("../images/plus.png");
+    background-image: url("../images/plus.png") !important;
     background-size: auto;
     background-position: center;
     }
     
     .accordion-button:not(.collapsed) {
-    color: #ffffff;
-    background-color: #d2153d;
+   
+
     }
 
 
