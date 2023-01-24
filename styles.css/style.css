@@ -66,7 +66,7 @@ font-family: 'Poppins', sans-serif;
 /* Slider, Testimonials Section End  */
 
 /* FAQ Section */
-.collapse.show{
+.accordion-item .collapse.show{
 background-color: #f3f3f3;
 }
 .accordion-button{
