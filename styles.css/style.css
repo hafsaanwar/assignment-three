@@ -86,6 +86,28 @@ background-color: #f3f3f3;
 .accordion-item {
     color: #707070;
 }
+/* According Icon Change  */
+.accordion-button:not(.collapsed)::after {
+   
+    background-image: url("../images/Frame\ \(1\).png");
+    transform: rotate(360deg);
+    background-size: auto;
+    background-position: center;
+    }
+    
+    .accordion-button.collapsed::after {
+    background-image: url("../images/plus.png");
+    background-size: auto;
+    background-position: center;
+    }
+    
+    .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #d2153d;
+    }
+
+
+
 /* FAQ Section End  */
 
 
